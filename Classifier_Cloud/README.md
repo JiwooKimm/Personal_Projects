@@ -16,7 +16,6 @@
 - Image file name format: ***.jpg_(label)
 - Image size:  2100 * 1400px 
 - Labels:
-
 Four types according to the shape of the cloud.
 	- Fish
 	- Flower
