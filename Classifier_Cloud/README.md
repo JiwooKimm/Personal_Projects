@@ -2,10 +2,10 @@
 
 #### Data Set: Clouds from Satellite Images
 - https://www.kaggle.com/code/preethikorukuri/understanding-clouds-from-satellite-images
-- (Kaggle로부터 GCS 방식으로 로드)
+- Data sets are loaded by Kaggle API token
 
 #### Classification target
-- 위성에서 찍은 구름 사진의 분류
+- Classification Cloud image 
 
 #### Data Description
 - Composition
