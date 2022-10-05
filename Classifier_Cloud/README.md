@@ -1,7 +1,7 @@
 ### Cloud Satellite Image Classification 
 
 #### Data Set: Clouds from Satellite Images
-- https://www.kaggle.com/code/preethikorukuri/understanding-clouds-from-satellite-images
+- https://www.kaggle.com/competitions/understanding_cloud_organization/overview
 - Data sets are loaded by Kaggle API token
 
 #### Classification target
