@@ -1,4 +1,16 @@
 ### **Release Note**
+#### **2022.10.29**
+**Update** 
+- 데이터 전처리 수정
+	- 기존: 결측치 존재하는 time stamp 의 데이터 drop out
+	- 변경: 결측치 & IQR 기준으로 한 이상치에 대하여 linear interpolation
+- Hyper parameter
+	- 직전 30일 학습 & 다음 stamp 예측
+	- hidden size : 18
+	- learning rate : 0.002
+	- epoch : 600 (early stopping 적용)
+
+<br>
 
 #### **2022.10.27**
 **Update**
