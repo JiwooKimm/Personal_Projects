@@ -10,6 +10,8 @@
 	- learning rate : 0.002
 	- epoch : 600 (early stopping 적용)
 
+**Future work**
+dev. ARIMA-LSTM hybrid model
 <br>
 
 #### **2022.10.27**
