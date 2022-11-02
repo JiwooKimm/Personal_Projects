@@ -1,6 +1,15 @@
 ### **Release Note**
-#### **2022.10.29**
-**Update** 
+#### **`2022.10.29`**
+**Update** AirPollutionSeoul_ARIMA.ipynb
+- 데이터 전처리 방식 수정
+	- 기존: 결측치 존재하는 time stamp 의 데이터 drop out
+	- 변경: 결측치 & IQR 기준으로 한 이상치에 대하여 linear interpolation
+- ARIMA, SARIMA 버전 모두 추가 
+
+<br>
+
+#### **`2022.10.29`**
+**Update** AirPollutionSeoul_LSTM.ipynb
 - 데이터 전처리 수정
 	- 기존: 결측치 존재하는 time stamp 의 데이터 drop out
 	- 변경: 결측치 & IQR 기준으로 한 이상치에 대하여 linear interpolation
@@ -14,8 +23,8 @@
 dev. ARIMA-LSTM hybrid model
 <br>
 
-#### **2022.10.27**
-**Update**
+#### **`2022.10.27`** 
+**Update** AirPollutionSeoul_LSTM.ipynb
 - PyTorch의 LSTM 모델을 이용하여 서울특별시 중구의 2017 ~ 2019년 까지의 대기오염물질 중 오존농도 예측.
 
 **to fix**
